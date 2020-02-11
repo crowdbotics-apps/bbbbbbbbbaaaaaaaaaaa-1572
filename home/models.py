@@ -38,3 +38,9 @@ class Test(models.Model):
     "Generated Model"
     test = models.BigIntegerField()
     test2 = models.BigIntegerField()
+
+
+class TestAna(models.Model):
+    "Generated Model"
+    testAna001 = models.BigIntegerField()
+    testAna002 = models.BigIntegerField()

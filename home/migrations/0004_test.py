@@ -6,16 +6,24 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('home', '0003_customtext_ana'),
+        ("home", "0003_customtext_ana"),
     ]
 
     operations = [
         migrations.CreateModel(
-            name='Test',
+            name="Test",
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('test', models.BigIntegerField()),
-                ('test2', models.BigIntegerField()),
+                (
+                    "id",
+                    models.AutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("test", models.BigIntegerField()),
+                ("test2", models.BigIntegerField()),
             ],
         ),
     ]
